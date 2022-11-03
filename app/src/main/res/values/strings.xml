@@ -7,5 +7,6 @@
     <string name="Log_In_EditText_password_hint">Password</string>
     <string name="Log_In_forgot_password_hint">Forgot password?</string>
     <string name="Log_In_main_title_text">Alumni App</string>
+    <string name="profile_label">Student Details:</string>
 
 </resources>

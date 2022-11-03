@@ -20,10 +20,23 @@
         android:id="@+id/fragment2"
         android:name="com.challenge.parcial22a_grupo3.fragments.Fragment2"
         android:label="fragment_2"
-        tools:layout="@layout/fragment_2" />
+        tools:layout="@layout/fragment_2" >
+        <action
+            android:id="@+id/action_fragment2_to_fragment_profile"
+            app:destination="@id/fragment_profile" />
+    </fragment>
     <fragment
-        android:id="@+id/fragment_settings"
+        android:id="@+id/settings_activity"
         android:name="com.challenge.parcial22a_grupo3.Fragment_settings"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.challenge.parcial22a_grupo3.Fragment_profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <argument
+            android:name="perfilAlumno"
+            app:argType="com.challenge.parcial22a_grupo3.clases.Alumno" />
+    </fragment>
 </navigation>

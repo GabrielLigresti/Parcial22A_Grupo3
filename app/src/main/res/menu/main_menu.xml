@@ -5,7 +5,7 @@
         android:icon="@drawable/_666691_home_icon"
         android:title="Home" />
     <item
-        android:id="@+id/fragment_settings"
+        android:id="@+id/settings_activity"
         android:icon="@drawable/_666615_settings_icon"
         android:title="Settings" />
     <item

@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.challenge.parcial22a_grupo3.R
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_1.*
 
 class Fragment1 : Fragment() {
@@ -29,7 +30,6 @@ class Fragment1 : Fragment() {
 
     override fun onStart() {
         super.onStart()
-
         logIn_button.setOnClickListener(){
             //var currentMessage = Message(txtField.text.toString())
             //Fragment1Directions.actionHomeFragmentToFirstFragment(currentMessage)

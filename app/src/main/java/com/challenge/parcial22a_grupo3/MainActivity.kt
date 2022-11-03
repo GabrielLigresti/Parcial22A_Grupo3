@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         nav_view.setupWithNavController(navController)
 
+
         //appBarConfiguration = AppBarConfiguration(navController.graph)
 
         NavigationUI.setupActionBarWithNavController(this,navController,drawer_layout_id)
