@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Parcial22A_Grupo3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Log_In_button_fragment">Log In</string>
+    <string name="Log_In_EditText_username_hint">Username</string>
+    <string name="Log_In_EditText_password_hint">Password</string>
+    <string name="Log_In_forgot_password_hint">Forgot password?</string>
+    <string name="Log_In_main_title_text">Alumni App</string>
+
+</resources>
