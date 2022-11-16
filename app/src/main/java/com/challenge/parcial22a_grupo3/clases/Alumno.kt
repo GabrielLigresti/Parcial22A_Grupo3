@@ -3,30 +3,16 @@ package com.challenge.parcial22a_grupo3.clases
 import android.os.Parcel
 import android.os.Parcelable
 
-class Alumno(name:String, surname: String, bio: String, urlImage: String?):Parcelable {
-
-    var name: String = ""
-    var surname: String = ""
-    var bio: String = ""
-    var urlImage: String = ""
+data class Alumno(val name: String, val surname: String, val bio: String, val urlImage: String?) :
+    Parcelable {
 
     constructor(parcel: Parcel) : this(
-        TODO("name"),
-        TODO("surname"),
-        TODO("bio"),
-        TODO("urlImage")
-    ) {
-        name = parcel.readString().toString()
-        surname = parcel.readString().toString()
-        bio = parcel.readString().toString()
-        urlImage = parcel.readString().toString()
-    }
+        parcel.readString().toString(),
+        parcel.readString().toString(),
+        parcel.readString().toString(),
+        parcel.readString().toString()
+    )
 
-    init {
-        this.name = name
-        this.surname = surname
-        this.bio = bio
-    }
 
     override fun describeContents(): Int {
         return 0

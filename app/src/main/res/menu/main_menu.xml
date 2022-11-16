@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/fragment2"
-        android:icon="@drawable/_666691_home_icon"
-        android:title="Home" />
-    <item
-        android:id="@+id/settings_activity"
-        android:icon="@drawable/_666615_settings_icon"
-        android:title="Settings" />
-    <item
-        android:id="@+id/fragment1"
-        android:icon="@drawable/_115235_exit_logout_sign_out_icon"
-        android:title="Log Out" />
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/fragment_lista_alumnos"
+                android:icon="@drawable/_666691_home_icon"
+                android:title="Home" />
+
+            <item
+                android:id="@+id/login_screen"
+                android:icon="@drawable/_115235_exit_logout_sign_out_icon"
+                android:title="Log Out" />
+        </menu>
+    </item>
+    <item android:title="Sistema">
+        <menu>
+            <item
+                android:id="@+id/activity_settings"
+                android:icon="@drawable/_666615_settings_icon"
+                android:title="Settings" />
+
+        </menu>
+
+    </item>
 </menu>
